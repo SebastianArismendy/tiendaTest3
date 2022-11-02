@@ -120,37 +120,37 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#about-us",
-      "menu-item#faq"
+      "menu-item#vehiculos",
+      "menu-item#Leches"
     ]
   },
-  "menu-item#about-us": {
+  "menu-item#vehiculos": {
     "props": {
-      "id": "menu-item-about-us",
+      "id": "menu-item-vehiculos",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/about-us",
+        "href": "/vehiculos",
         "noFollow": true,
-        "tagTitle": "About us",
-        "text": "About us"
+        "tagTitle": "vehiculos",
+        "text": "vehiculos"
       }
     }
   },
-  "menu-item#faq": {
+  "menu-item#Leches": {
     "props": {
-      "id": "menu-item-faq",
+      "id": "menu-item-Leches",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/faq",
+        "href": "/Leches",
         "noFollow": true,
-        "tagTitle": "FAQ",
-        "text": "FAQ"
+        "tagTitle": "Leches",
+        "text": "Leches"
       }
     }
   },

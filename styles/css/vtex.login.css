@@ -1,3 +1,9 @@
 .label {
     display: none;
 }
+
+.profileIcon{
+    height: 25px;
+    width: 25px;
+    color:white;
+}
