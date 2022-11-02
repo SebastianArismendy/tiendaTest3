@@ -1,0 +1,8 @@
+.wrapper--sticky-header{
+    background-color: #474E68;
+}
+
+.wrapper :global(.vtex-flex-layout-0-x-flexRowContent--main-header){
+    background-color: #474E68!important;
+    align-items: center;
+}

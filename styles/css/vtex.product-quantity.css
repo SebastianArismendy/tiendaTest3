@@ -1,0 +1,15 @@
+.quantitySelectorTitle {
+    display: none;
+}
+
+.quantitySelectorStepper :global(.vtex-numeric-stepper__minus-button){
+    background-color: #404258;
+    border: 0;
+    color: #ffff;
+}
+
+.quantitySelectorStepper :global(.vtex-numeric-stepper__plus-button){
+    background-color: #404258;
+    color: #ffff;
+    border: 0;
+}

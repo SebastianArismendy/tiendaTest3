@@ -3,14 +3,21 @@
     "children": [
       "stack-layout#prodsum",
       "product-summary-name",
-      "flex-layout.col#productRating",
-      "product-summary-space",
       "product-list-price#summary",
       "flex-layout.row#selling-price-savings",
-      "product-installments#summary",
+      "product-summary-quantity",
       "add-to-cart-button"
+      
     ]
   },
+
+  "add-to-cart-button":{
+    "props":{
+      "text": "Agregar",
+      "blockClass": "agregarCarrito"
+    }
+  },
+
   "flex-layout.col#productRating": {
     "props": {
       "blockClass": "productRating"

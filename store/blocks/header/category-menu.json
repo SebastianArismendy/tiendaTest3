@@ -5,7 +5,6 @@
     },
     "children": [
       "menu-item#category-apparel",
-      "menu-item#category-home",
       "menu-item#more"
     ]
   },
@@ -17,10 +16,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/",
+        "href": "/licores",
         "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
+        "tagTitle": "licores",
+        "text": "Licores"
       }
     },
     "blocks": [
@@ -40,68 +39,37 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#category-apparel-clothing",
-      "menu-item#category-apparel-accessories",
-      "menu-item#category-apparel-eyeglasses"
+      "menu-item#category-apparel-gin",
+      "menu-item#category-apparel-whisky"
     ]
   },
-  "menu-item#category-apparel-clothing": {
+  "menu-item#category-apparel-gin": {
     "props": {
-      "id": "menu-item-category-apparel-clothing",
+      "id": "menu-item-category-apparel-gin",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/clothing/",
+        "href": "/licores/gin/",
         "noFollow": false,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "gin",
+        "text": "gin"
       }
     }
   },
-  "menu-item#category-apparel-accessories": {
+  "menu-item#category-apparel-whisky": {
     "props": {
-      "id": "menu-item-category-apparel-accessories",
+      "id": "menu-item-category-apparel-whisky",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/accessories/",
+        "href": "/licores/whisky/",
         "noFollow": false,
-        "tagTitle": "Accessories",
-        "text": "Accessories"
-      }
-    }
-  },
-  "menu-item#category-apparel-eyeglasses": {
-    "props": {
-      "id": "menu-item-category-apparel-eyeglasses",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/apparel---accessories/eyeglasses/",
-        "noFollow": false,
-        "tagTitle": "Eyeglasses",
-        "text": "Eyeglasses"
-      }
-    }
-  },
-  "menu-item#category-home": {
-    "props": {
-      "id": "menu-item-category-home",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/home---decor/",
-        "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
+        "tagTitle": "whisky",
+        "text": "whisky"
       }
     }
   },
@@ -115,8 +83,8 @@
         "type": "internal",
         "href": "#",
         "noFollow": true,
-        "tagTitle": "More",
-        "text": "More"
+        "tagTitle": "Más",
+        "text": "Más"
       }
     },
     "blocks": [

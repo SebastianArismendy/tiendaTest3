@@ -29,9 +29,9 @@
       "fullWidth": true
     },
     "children": [
-      "vtex.menu@2.x:menu#websites",
       "flex-layout.col#spacer",
       "vtex.menu@2.x:menu#institutional"
+      
     ]
   },
   "flex-layout.col#spacer": {
@@ -59,7 +59,7 @@
       "flex-layout.col#category-menu",
       "flex-layout.col#spacer",
       "search-bar",
-      "locale-switcher",
+      "flex-layout.col#spacer",
       "login",
       "minicart.v2"
     ]
@@ -80,9 +80,9 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
-      "width": "180",
-      "height": "12"
+      "url": "assets/images/e-commerce.png",
+      "width": "96",
+      "height": "96"
     }
   },
   "header-layout.mobile": {
@@ -113,7 +113,6 @@
   "menu#drawer": {
     "children": [
       "menu-item#category-apparel",
-      "menu-item#category-home",
       "menu-item#more"
     ],
     "props": {
@@ -125,9 +124,26 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
-      "width": "77.5",
-      "height": "27.5"
+      "url": "assets/images/images.png",
+      "width": "96",
+      "height": "96"
+    }
+  },
+
+  "login": {
+    "props": {
+      "showIconProfile": true,
+      "iconLabel": "",
+      "hasGoogleOneTap": true,
+      "isInitialScreenOptionOnly": false,
+      "defaultOption": 1,
+      "emailAndPasswordTitle": "LOG-IN",
+      "emailPlaceholder": "Escribe tu correo electrónico*",
+      "passwordPlaceholder": "Escribe tu contraseña*",
+      "acessCodePlaceholder": "Ingrese el código de verificación*",
+      "identifierPlaceholder": "identifierPlaceholder prueba",
+      "showPasswordVerificationIntoTooltip": true
     }
   }
+  
 }
