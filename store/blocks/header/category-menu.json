@@ -5,7 +5,8 @@
     },
     "children": [
       "menu-item#category-apparel",
-      "menu-item#more"
+      "menu-item#more",
+      "menu-item#nosotros"
     ]
   },
   "menu-item#category-apparel": {
@@ -154,18 +155,18 @@
       }
     }
   },
-  "menu-item#contact-us": {
+  "menu-item#nosotros": {
     "props": {
-      "id": "menu-item-contact-us",
+      "id": "menu-item-nosotros",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/contact-us",
+        "href": "/about-us",
         "noFollow": true,
-        "tagTitle": "Contact Us",
-        "text": "Contact Us"
+        "tagTitle": "nosotros",
+        "text": "Acerca de nosotros"
       }
     }
   }

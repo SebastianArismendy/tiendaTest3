@@ -1,0 +1,8 @@
+{
+  "name": "tiendaTest3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/SebastianArismendy/tiendaTest3.git",
+  "author": "Sebastian Arismendy Buitrago <sebastian.arismendy@pragma.com.co>",
+  "license": "MIT"
+}

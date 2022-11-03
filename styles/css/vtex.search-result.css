@@ -20,3 +20,41 @@
 .galleryItem--list {
   border-bottom: 1px #E7E9EE solid;
 }
+
+
+.totalProductsMessage,.filterTitle,.categoryItemName,.categoryItemChildren {
+  color: #404258;
+}
+
+.filterItem  :global(.vtex-checkbox__label){
+  color: #404258;
+}
+
+.searchNotFoundInfo {
+  font-size: 0
+}
+
+.searchNotFoundInfo::before {
+  content: "Lo sentimos no encontramos el producto que buscas";
+  font-size: 30px;
+}
+
+.searchNotFoundOops {
+  font-size: 0;
+  height: 300px;
+  width: 300px;
+  position: relative;
+}
+
+.searchNotFoundOops::before{
+  content: "";
+  background: url(https://tiendatest3.vtexassets.com/assets/vtex/assets-builder/tiendatest3.store-theme/5.1.1/images/noFound___8c84f3b….png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

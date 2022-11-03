@@ -15,3 +15,9 @@
 .star--empty {
   color: #FFB100;
 }
+
+
+.reviewsOrderBy :global(.vtex-dropdown__button){
+  color: #404258;;
+}
+

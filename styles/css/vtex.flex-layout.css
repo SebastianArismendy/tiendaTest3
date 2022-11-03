@@ -94,3 +94,8 @@
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
 }
+
+
+.flexRowContent--pdp_add :global(.vtex-button){
+  background-color: #404258;
+}

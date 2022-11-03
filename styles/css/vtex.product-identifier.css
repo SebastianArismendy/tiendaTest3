@@ -1,3 +1,12 @@
 .product-identifier--productReference {
   margin-bottom: 1rem;
 }
+
+.product-identifier__label{
+  color: #404258;
+}
+
+.product-identifier__value{
+  color: #404258;
+  font-weight: bold;
+}

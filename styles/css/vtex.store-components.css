@@ -146,3 +146,66 @@
   background-color: #6B728E;
   border-left: 1px solid white;
 }
+
+
+.productDescriptionTitle {
+  color: #404258;
+  font-weight: bold;
+  text-align: center;
+  color: #404258;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 36px;
+  white-space: nowrap;
+}
+
+.productDescriptionTitle::after{
+  content: '';
+    width: 100%;
+    height: 1px;
+    background: #404258;
+}
+
+.productDescriptionTitle::before{
+  content: '';
+    width: 100%;
+    height: 1px;
+    background: #424242;
+}
+
+.productDescriptionText {
+  color: #404258;
+  text-align: center;
+}
+
+.caretIcon,.swiperBullet--active,.skuSelectorItemTextValue {
+  color: #424242;
+}
+
+.frameAround{
+  border-color: #404258;
+}
+
+.shareSocialIcon--facebook,.shareSocialIcon--whatsapp {
+  display: none;
+}
+.shareSocialButton--facebook{
+  width: 32px;
+  height: 32px;
+  background: url(assets/images/iconos/facebook.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 0;
+}
+.shareSocialButton--whatsapp{
+  width: 32px;
+  height: 32px;
+  background: url(assets/images/iconos/whatsapp.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
