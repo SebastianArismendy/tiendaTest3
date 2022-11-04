@@ -1,0 +1,22 @@
+.cartIcon{
+    height: 25px;
+    width: 25px;
+    color:white;
+}
+
+.childrenContainer,.closeIconContainer {
+    background-color: #404258;
+}
+
+.closeIconButton {
+    color: white;
+}
+
+.minicartCheckoutButton :global(.vtex-button){
+    background-color: #474E68;
+    border-color: white;
+}
+
+.childrenContainer :global(.vtex-dropdown__button){
+    color: black;
+}

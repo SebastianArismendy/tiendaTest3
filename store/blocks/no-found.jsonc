@@ -1,0 +1,44 @@
+{
+    "flex-layout.row#no-found": {
+    "children": [
+      "image#no-found",
+      "flex-layout.col#text-no-found"
+    ]
+  },
+
+  "flex-layout.col#text-no-found": {
+    "children": [
+      "rich-text#title-no-found",
+      "rich-text#no-found"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#title-no-found": {
+    "props": {
+      "text":
+      "# Lo sentimos no encontramos lo que buscas",
+      "textColor": "c-on-action-secondary"
+    }
+  },
+
+  "image#no-found": {
+    "props": {
+      "src": "assets/images/noFound.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "no-found"
+    }
+  },
+ 
+  "rich-text#no-found": {
+    "props": {
+      "text": "**Que puedo hacer?** \n 1. Escribe una sola palabra \n 2. Revisa que esté bien escrita \n 3. Utiliza términos genéricos \n 4. Prueba con sinónimos de tu palabra",
+      "blockClass": "no-found",
+      "textColor": "c-on-action-secondary"
+    }
+  }
+}

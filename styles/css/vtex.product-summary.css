@@ -40,3 +40,26 @@
 .image {
   border-radius: 0.25rem;
 }
+
+.containerNormal {
+  background-color: #6B728E;
+  padding: 15px;
+}
+
+.containerNormal :global(.vtex-button){
+  border: 0;
+}
+
+.containerNormal :global(.vtex-button__label){
+  background-color: #404258;
+  border: 1px solid #404258;
+  border-radius: 7px;
+}
+
+.brandName {
+  color: white;
+}
+
+.imageContainer {
+  background-color: white;
+}

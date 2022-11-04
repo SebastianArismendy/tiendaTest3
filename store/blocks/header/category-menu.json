@@ -5,8 +5,8 @@
     },
     "children": [
       "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#more",
+      "menu-item#nosotros"
     ]
   },
   "menu-item#category-apparel": {
@@ -17,10 +17,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/",
+        "href": "/licores",
         "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
+        "tagTitle": "licores",
+        "text": "Licores"
       }
     },
     "blocks": [
@@ -40,68 +40,37 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#category-apparel-clothing",
-      "menu-item#category-apparel-accessories",
-      "menu-item#category-apparel-eyeglasses"
+      "menu-item#category-apparel-gin",
+      "menu-item#category-apparel-whisky"
     ]
   },
-  "menu-item#category-apparel-clothing": {
+  "menu-item#category-apparel-gin": {
     "props": {
-      "id": "menu-item-category-apparel-clothing",
+      "id": "menu-item-category-apparel-gin",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/clothing/",
+        "href": "/licores/gin/",
         "noFollow": false,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "gin",
+        "text": "gin"
       }
     }
   },
-  "menu-item#category-apparel-accessories": {
+  "menu-item#category-apparel-whisky": {
     "props": {
-      "id": "menu-item-category-apparel-accessories",
+      "id": "menu-item-category-apparel-whisky",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/accessories/",
+        "href": "/licores/whisky/",
         "noFollow": false,
-        "tagTitle": "Accessories",
-        "text": "Accessories"
-      }
-    }
-  },
-  "menu-item#category-apparel-eyeglasses": {
-    "props": {
-      "id": "menu-item-category-apparel-eyeglasses",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/apparel---accessories/eyeglasses/",
-        "noFollow": false,
-        "tagTitle": "Eyeglasses",
-        "text": "Eyeglasses"
-      }
-    }
-  },
-  "menu-item#category-home": {
-    "props": {
-      "id": "menu-item-category-home",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/home---decor/",
-        "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
+        "tagTitle": "whisky",
+        "text": "whisky"
       }
     }
   },
@@ -115,8 +84,8 @@
         "type": "internal",
         "href": "#",
         "noFollow": true,
-        "tagTitle": "More",
-        "text": "More"
+        "tagTitle": "Más",
+        "text": "Más"
       }
     },
     "blocks": [
@@ -152,13 +121,43 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#about-us",
-      "menu-item#faq"
+      "menu-item#vehiculos",
+      "menu-item#Leches"
     ]
   },
-  "menu-item#about-us": {
+  "menu-item#vehiculos": {
     "props": {
-      "id": "menu-item-about-us",
+      "id": "menu-item-vehiculos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vehiculos",
+        "noFollow": true,
+        "tagTitle": "vehiculos",
+        "text": "vehiculos"
+      }
+    }
+  },
+  "menu-item#Leches": {
+    "props": {
+      "id": "menu-item-Leches",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Leches",
+        "noFollow": true,
+        "tagTitle": "Leches",
+        "text": "Leches"
+      }
+    }
+  },
+  "menu-item#nosotros": {
+    "props": {
+      "id": "menu-item-nosotros",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -166,38 +165,8 @@
         "type": "internal",
         "href": "/about-us",
         "noFollow": true,
-        "tagTitle": "About us",
-        "text": "About us"
-      }
-    }
-  },
-  "menu-item#faq": {
-    "props": {
-      "id": "menu-item-faq",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/faq",
-        "noFollow": true,
-        "tagTitle": "FAQ",
-        "text": "FAQ"
-      }
-    }
-  },
-  "menu-item#contact-us": {
-    "props": {
-      "id": "menu-item-contact-us",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/contact-us",
-        "noFollow": true,
-        "tagTitle": "Contact Us",
-        "text": "Contact Us"
+        "tagTitle": "nosotros",
+        "text": "Acerca de nosotros"
       }
     }
   }

@@ -59,7 +59,7 @@
       "search-not-found-layout"
     ]
   },
-
+ 
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#searchbread",
@@ -97,14 +97,25 @@
   },
   "flex-layout.col#content": {
     "children": [
+      
       "flex-layout.row#searchinfo",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#products",
-      "flex-layout.row#fetchmore"
+      "flex-layout.row#fetchmore",
+      "video#background"
     ],
     "props": {
       "width": "grow",
       "preventVerticalStretch": true
+    }
+  },
+  "video#background": {
+    "props": {
+      "width": "100%",
+      "height": "400px",
+      "autoPlay": true,
+      "src": "https://www.youtube.com/watch?v=kYXdp3YEMF4&ab_channel=VTEXLatam",
+      "blockClass": ""
     }
   },
   "flex-layout.row#searchinfo": {
@@ -152,6 +163,9 @@
   },
   "search-content": {
     "blocks": ["gallery", "not-found"]
+  },
+  "not-found":{
+    "title": "PAGE NOT FOUND"
   },
 
   "search-result-layout.mobile": {
@@ -219,7 +233,7 @@
     }
   },
   "search-not-found-layout": {
-    "children": ["flex-layout.row#searchbread", "flex-layout.row#notfound"]
+    "children": ["flex-layout.row#searchbread", "flex-layout.row#no-found"]
   },
 
   "flex-layout.row#notfound": {

@@ -6,7 +6,10 @@
 }
 
 .productHighlightText {
-  background: antiquewhite;
+  background: #404258;
+  color: white;
   border-radius: 20px;
   padding: 5px 10px;
 }
+
+

@@ -9,3 +9,44 @@
 .row--payment-methods {
   padding-top: 16px;
 }
+
+.footerLayout{
+  background-color: #474E68;
+}
+
+.socialNetworkImage{
+  display: none;
+}
+
+.socialNetworkLink{
+  height: 35px;
+  width: 35px;
+}
+
+.socialNetworkLink--facebook::before{
+  content: "";
+  background: url(assets/images/iconos/facebook.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.socialNetworkLink--youtube::before{
+  content: "";
+  background: url(assets/images/iconos/youtube.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.socialNetworkLink--instagram::before{
+  content: "";
+  background: url(assets/images/iconos/instagram.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
